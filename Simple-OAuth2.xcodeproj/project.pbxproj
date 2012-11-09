@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E517C12D164C6BF5006114AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E517C12C164C6BF5006114AC /* UIKit.framework */; };
+		E517C12F164C6BF5006114AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E517C12E164C6BF5006114AC /* Foundation.framework */; };
+		E517C131164C6BF5006114AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E517C130164C6BF5006114AC /* CoreGraphics.framework */; };
+		E517C137164C6BF5006114AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E517C135164C6BF5006114AC /* InfoPlist.strings */; };
+		E517C139164C6BF5006114AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E517C138164C6BF5006114AC /* main.m */; };
+		E517C13D164C6BF5006114AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E517C13C164C6BF5006114AC /* AppDelegate.m */; };
+		E517C13F164C6BF5006114AC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E517C13E164C6BF5006114AC /* Default.png */; };
+		E517C141164C6BF5006114AC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E517C140164C6BF5006114AC /* Default@2x.png */; };
+		E517C143164C6BF5006114AC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E517C142164C6BF5006114AC /* Default-568h@2x.png */; };
+		E517C146164C6BF5006114AC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E517C144164C6BF5006114AC /* MainStoryboard.storyboard */; };
+		E517C149164C6BF5006114AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E517C148164C6BF5006114AC /* ViewController.m */; };
+		E517C151164C6C35006114AC /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E517C150164C6C35006114AC /* GTMHTTPFetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E517C157164C6C63006114AC /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = E517C154164C6C63006114AC /* GTMOAuth2Authentication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E517C158164C6C63006114AC /* GTMOAuth2SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = E517C156164C6C63006114AC /* GTMOAuth2SignIn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E517C15C164C6C79006114AC /* GTMOAuth2ViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = E517C15A164C6C79006114AC /* GTMOAuth2ViewControllerTouch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E517C15D164C6C79006114AC /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = E517C15B164C6C79006114AC /* GTMOAuth2ViewTouch.xib */; };
+		E517C15F164C6C93006114AC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E517C15E164C6C93006114AC /* Security.framework */; };
+		E517C161164C6C98006114AC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E517C160164C6C98006114AC /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E517C128164C6BF5006114AC /* Simple-OAuth2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple-OAuth2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E517C12C164C6BF5006114AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E517C12E164C6BF5006114AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E517C130164C6BF5006114AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E517C134164C6BF5006114AC /* Simple-OAuth2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple-OAuth2-Info.plist"; sourceTree = "<group>"; };
+		E517C136164C6BF5006114AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E517C138164C6BF5006114AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E517C13A164C6BF5006114AC /* Simple-OAuth2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple-OAuth2-Prefix.pch"; sourceTree = "<group>"; };
+		E517C13B164C6BF5006114AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E517C13C164C6BF5006114AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E517C13E164C6BF5006114AC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E517C140164C6BF5006114AC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E517C142164C6BF5006114AC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E517C145164C6BF5006114AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E517C147164C6BF5006114AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E517C148164C6BF5006114AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E517C14F164C6C35006114AC /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcher.h; sourceTree = "<group>"; };
+		E517C150164C6C35006114AC /* GTMHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcher.m; sourceTree = "<group>"; };
+		E517C153164C6C63006114AC /* GTMOAuth2Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2Authentication.h; sourceTree = "<group>"; };
+		E517C154164C6C63006114AC /* GTMOAuth2Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2Authentication.m; sourceTree = "<group>"; };
+		E517C155164C6C63006114AC /* GTMOAuth2SignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2SignIn.h; sourceTree = "<group>"; };
+		E517C156164C6C63006114AC /* GTMOAuth2SignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2SignIn.m; sourceTree = "<group>"; };
+		E517C159164C6C79006114AC /* GTMOAuth2ViewControllerTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2ViewControllerTouch.h; sourceTree = "<group>"; };
+		E517C15A164C6C79006114AC /* GTMOAuth2ViewControllerTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2ViewControllerTouch.m; sourceTree = "<group>"; };
+		E517C15B164C6C79006114AC /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMOAuth2ViewTouch.xib; sourceTree = "<group>"; };
+		E517C15E164C6C93006114AC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E517C160164C6C98006114AC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E517C125164C6BF5006114AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E517C161164C6C98006114AC /* SystemConfiguration.framework in Frameworks */,
+				E517C15F164C6C93006114AC /* Security.framework in Frameworks */,
+				E517C12D164C6BF5006114AC /* UIKit.framework in Frameworks */,
+				E517C12F164C6BF5006114AC /* Foundation.framework in Frameworks */,
+				E517C131164C6BF5006114AC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E517C11D164C6BF5006114AC = {
+			isa = PBXGroup;
+			children = (
+				E517C132164C6BF5006114AC /* Simple-OAuth2 */,
+				E517C12B164C6BF5006114AC /* Frameworks */,
+				E517C129164C6BF5006114AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E517C129164C6BF5006114AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E517C128164C6BF5006114AC /* Simple-OAuth2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E517C12B164C6BF5006114AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E517C160164C6C98006114AC /* SystemConfiguration.framework */,
+				E517C15E164C6C93006114AC /* Security.framework */,
+				E517C12C164C6BF5006114AC /* UIKit.framework */,
+				E517C12E164C6BF5006114AC /* Foundation.framework */,
+				E517C130164C6BF5006114AC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E517C132164C6BF5006114AC /* Simple-OAuth2 */ = {
+			isa = PBXGroup;
+			children = (
+				E517C152164C6C3A006114AC /* OAuthStuff */,
+				E517C13B164C6BF5006114AC /* AppDelegate.h */,
+				E517C13C164C6BF5006114AC /* AppDelegate.m */,
+				E517C144164C6BF5006114AC /* MainStoryboard.storyboard */,
+				E517C147164C6BF5006114AC /* ViewController.h */,
+				E517C148164C6BF5006114AC /* ViewController.m */,
+				E517C133164C6BF5006114AC /* Supporting Files */,
+			);
+			name = "Simple-OAuth2";
+			path = GTMOAuthHostProject;
+			sourceTree = "<group>";
+		};
+		E517C133164C6BF5006114AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E517C134164C6BF5006114AC /* Simple-OAuth2-Info.plist */,
+				E517C135164C6BF5006114AC /* InfoPlist.strings */,
+				E517C138164C6BF5006114AC /* main.m */,
+				E517C13A164C6BF5006114AC /* Simple-OAuth2-Prefix.pch */,
+				E517C13E164C6BF5006114AC /* Default.png */,
+				E517C140164C6BF5006114AC /* Default@2x.png */,
+				E517C142164C6BF5006114AC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E517C152164C6C3A006114AC /* OAuthStuff */ = {
+			isa = PBXGroup;
+			children = (
+				E517C14F164C6C35006114AC /* GTMHTTPFetcher.h */,
+				E517C150164C6C35006114AC /* GTMHTTPFetcher.m */,
+				E517C153164C6C63006114AC /* GTMOAuth2Authentication.h */,
+				E517C154164C6C63006114AC /* GTMOAuth2Authentication.m */,
+				E517C155164C6C63006114AC /* GTMOAuth2SignIn.h */,
+				E517C156164C6C63006114AC /* GTMOAuth2SignIn.m */,
+				E517C159164C6C79006114AC /* GTMOAuth2ViewControllerTouch.h */,
+				E517C15A164C6C79006114AC /* GTMOAuth2ViewControllerTouch.m */,
+				E517C15B164C6C79006114AC /* GTMOAuth2ViewTouch.xib */,
+			);
+			name = OAuthStuff;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E517C127164C6BF5006114AC /* Simple-OAuth2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E517C14C164C6BF5006114AC /* Build configuration list for PBXNativeTarget "Simple-OAuth2" */;
+			buildPhases = (
+				E517C124164C6BF5006114AC /* Sources */,
+				E517C125164C6BF5006114AC /* Frameworks */,
+				E517C126164C6BF5006114AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple-OAuth2";
+			productName = GTMOAuthHostProject;
+			productReference = E517C128164C6BF5006114AC /* Simple-OAuth2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E517C11F164C6BF5006114AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Kwamecorp;
+			};
+			buildConfigurationList = E517C122164C6BF5006114AC /* Build configuration list for PBXProject "Simple-OAuth2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E517C11D164C6BF5006114AC;
+			productRefGroup = E517C129164C6BF5006114AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E517C127164C6BF5006114AC /* Simple-OAuth2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E517C126164C6BF5006114AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E517C137164C6BF5006114AC /* InfoPlist.strings in Resources */,
+				E517C13F164C6BF5006114AC /* Default.png in Resources */,
+				E517C141164C6BF5006114AC /* Default@2x.png in Resources */,
+				E517C143164C6BF5006114AC /* Default-568h@2x.png in Resources */,
+				E517C146164C6BF5006114AC /* MainStoryboard.storyboard in Resources */,
+				E517C15D164C6C79006114AC /* GTMOAuth2ViewTouch.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E517C124164C6BF5006114AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E517C139164C6BF5006114AC /* main.m in Sources */,
+				E517C13D164C6BF5006114AC /* AppDelegate.m in Sources */,
+				E517C149164C6BF5006114AC /* ViewController.m in Sources */,
+				E517C151164C6C35006114AC /* GTMHTTPFetcher.m in Sources */,
+				E517C157164C6C63006114AC /* GTMOAuth2Authentication.m in Sources */,
+				E517C158164C6C63006114AC /* GTMOAuth2SignIn.m in Sources */,
+				E517C15C164C6C79006114AC /* GTMOAuth2ViewControllerTouch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E517C135164C6BF5006114AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E517C136164C6BF5006114AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E517C144164C6BF5006114AC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E517C145164C6BF5006114AC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E517C14A164C6BF5006114AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E517C14B164C6BF5006114AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E517C14D164C6BF5006114AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GTMOAuthHostProject/Simple-OAuth2-Prefix.pch";
+				INFOPLIST_FILE = "GTMOAuthHostProject/Simple-OAuth2-Info.plist";
+				PRODUCT_NAME = "Simple-OAuth2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E517C14E164C6BF5006114AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GTMOAuthHostProject/Simple-OAuth2-Prefix.pch";
+				INFOPLIST_FILE = "GTMOAuthHostProject/Simple-OAuth2-Info.plist";
+				PRODUCT_NAME = "Simple-OAuth2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E517C122164C6BF5006114AC /* Build configuration list for PBXProject "Simple-OAuth2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E517C14A164C6BF5006114AC /* Debug */,
+				E517C14B164C6BF5006114AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E517C14C164C6BF5006114AC /* Build configuration list for PBXNativeTarget "Simple-OAuth2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E517C14D164C6BF5006114AC /* Debug */,
+				E517C14E164C6BF5006114AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E517C11F164C6BF5006114AC /* Project object */;
+}
