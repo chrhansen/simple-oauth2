@@ -19,7 +19,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self signInToGmail];
+    [self signInToGoogle];
 }
 
 
@@ -32,17 +32,17 @@
 
 //Creat your Google APP here: https://code.google.com/apis/console/ and get the key and secret
 
-#define GmailClientID    @"YOUR CLIENT ID"
-#define GmailClientSecret @"YOUR CLIENT SECRET"
-#define GmailAuthURL   @"https://accounts.google.com/o/oauth2/auth"
-#define GmailTokenURL  @"https://accounts.google.com/o/oauth2/token"
+#define GoogleClientID    @"YOUR CLIENT ID"
+#define GoogleClientSecret @"YOUR CLIENT SECRET"
+#define GoogleAuthURL   @"https://accounts.google.com/o/oauth2/auth"
+#define GoogleTokenURL  @"https://accounts.google.com/o/oauth2/token"
 
 
-- (GTMOAuth2Authentication * )authForGmail
+- (GTMOAuth2Authentication * )authForGoogle
 {
     //This URL is defined by the individual 3rd party APIs, be sure to read their documentation
     
-    NSURL * tokenURL = [NSURL URLWithString:GmailTokenURL];
+    NSURL * tokenURL = [NSURL URLWithString:GoogleTokenURL];
     // We'll make up an arbitrary redirectURI.  The controller will watch for
     // the server to redirect the web view to this URI, but this URI will not be
     // loaded, so it need not be for any actual web page. This needs to match the URI set as the
@@ -53,21 +53,21 @@
     auth = [GTMOAuth2Authentication authenticationWithServiceProvider:@"lifebeat"
                                                              tokenURL:tokenURL
                                                           redirectURI:redirectURI
-                                                             clientID:GmailClientID
-                                                         clientSecret:GmailClientSecret];
+                                                             clientID:GoogleClientID
+                                                         clientSecret:GoogleClientSecret];
     auth.scope = @"https://www.googleapis.com/auth/userinfo.profile";
     return auth;
 }
 
 
-- (void)signInToGmail
+- (void)signInToGoogle
 {
-    GTMOAuth2Authentication * auth = [self authForGmail];
+    GTMOAuth2Authentication * auth = [self authForGoogle];
 
     // Display the authentication view
     GTMOAuth2ViewControllerTouch * viewController = [[GTMOAuth2ViewControllerTouch alloc] initWithAuthentication:auth
-                                                                                                authorizationURL:[NSURL URLWithString:GmailAuthURL]
-                                                                                                keychainItemName:@"GmailKeychainName"
+                                                                                                authorizationURL:[NSURL URLWithString:GoogleAuthURL]
+                                                                                                keychainItemName:@"GoogleKeychainName"
                                                                                                         delegate:self
                                                                                                 finishedSelector:@selector(viewController:finishedWithAuth:error:)];
     [self.navigationController pushViewController:viewController animated:YES];
@@ -83,7 +83,7 @@
     
     [self.navigationController popToViewController:self animated:NO];
     if (error != nil) {
-        UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"Error Authorizing with Gmail"
+        UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"Error Authorizing with Google"
                                                          message:[error localizedDescription]
                                                         delegate:nil
                                                cancelButtonTitle:@"OK"
@@ -91,7 +91,7 @@
         [alert show];
     } else {
         
-        UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"Success Authorizing with Gmail"
+        UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"Success Authorizing with Google"
                                                          message:[error localizedDescription]
                                                         delegate:nil
                                                cancelButtonTitle:@"OK"
