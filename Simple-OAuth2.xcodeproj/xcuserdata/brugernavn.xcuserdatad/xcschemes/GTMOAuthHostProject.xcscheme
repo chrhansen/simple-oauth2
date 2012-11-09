@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E517C127164C6BF5006114AC"
-               BuildableName = "GTMOAuthHostProject.app"
+               BuildableName = "Simple-OAuth2.app"
                BlueprintName = "Simple-OAuth2"
                ReferencedContainer = "container:Simple-OAuth2.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E517C127164C6BF5006114AC"
-            BuildableName = "GTMOAuthHostProject.app"
+            BuildableName = "Simple-OAuth2.app"
             BlueprintName = "Simple-OAuth2"
             ReferencedContainer = "container:Simple-OAuth2.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E517C127164C6BF5006114AC"
-            BuildableName = "GTMOAuthHostProject.app"
+            BuildableName = "Simple-OAuth2.app"
             BlueprintName = "Simple-OAuth2"
             ReferencedContainer = "container:Simple-OAuth2.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E517C127164C6BF5006114AC"
-            BuildableName = "GTMOAuthHostProject.app"
+            BuildableName = "Simple-OAuth2.app"
             BlueprintName = "Simple-OAuth2"
             ReferencedContainer = "container:Simple-OAuth2.xcodeproj">
          </BuildableReference>

@@ -114,7 +114,7 @@
 				E517C133164C6BF5006114AC /* Supporting Files */,
 			);
 			name = "Simple-OAuth2";
-			path = GTMOAuthHostProject;
+			path = Simple-OAuth2;
 			sourceTree = "<group>";
 		};
 		E517C133164C6BF5006114AC /* Supporting Files */ = {
@@ -163,7 +163,7 @@
 			dependencies = (
 			);
 			name = "Simple-OAuth2";
-			productName = GTMOAuthHostProject;
+			productName = Simple-OAuth2;
 			productReference = E517C128164C6BF5006114AC /* Simple-OAuth2.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -300,8 +300,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GTMOAuthHostProject/Simple-OAuth2-Prefix.pch";
-				INFOPLIST_FILE = "GTMOAuthHostProject/Simple-OAuth2-Info.plist";
+				GCC_PREFIX_HEADER = "Simple-OAuth2/Simple-OAuth2-Prefix.pch";
+				INFOPLIST_FILE = "Simple-OAuth2/Simple-OAuth2-Info.plist";
 				PRODUCT_NAME = "Simple-OAuth2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -311,8 +311,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GTMOAuthHostProject/Simple-OAuth2-Prefix.pch";
-				INFOPLIST_FILE = "GTMOAuthHostProject/Simple-OAuth2-Info.plist";
+				GCC_PREFIX_HEADER = "Simple-OAuth2/Simple-OAuth2-Prefix.pch";
+				INFOPLIST_FILE = "Simple-OAuth2/Simple-OAuth2-Info.plist";
 				PRODUCT_NAME = "Simple-OAuth2";
 				WRAPPER_EXTENSION = app;
 			};

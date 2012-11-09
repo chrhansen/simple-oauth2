@@ -1,6 +1,6 @@
 //
 //  ViewController.h
-//  GTMOAuthHostProject
+//  Simple-OAuth2
 //
 //  Created by Christian Hansen on 08/11/12.
 //  Copyright (c) 2012 Lifebeat. All rights reserved.
